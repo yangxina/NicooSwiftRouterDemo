@@ -1,0 +1,6 @@
+framework module RouterTestModule {
+  umbrella header "RouterTestModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module RightMuneTabel {
+  umbrella header "RightMuneTabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

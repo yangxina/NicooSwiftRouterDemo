@@ -1,0 +1,1400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06E7618F9BF1C54875616314BA5E0049 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AD78FC0FDE9E2D607239376083010F /* ConstraintConstantTarget.swift */; };
+		0712F8B2A687BC71196BB4A01B93F343 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA86F26B6E99A1B1B4E0033892190CD3 /* ConstraintAttributes.swift */; };
+		10898E03505C5B7EFE84C12F0EE1ED95 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53313DA519EC465845873DB500A10A8A /* ConstraintConfig.swift */; };
+		10B8578C4F6A9175BE1CC42C028D65A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4118D1C8E2C51C9A04C894BE3175B34 /* Foundation.framework */; };
+		11D1553F0DD8B0978B90703FE68D7FFB /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10496600B40E24724FF61EFDD2EA8612 /* ConstraintRelation.swift */; };
+		1469AABFEDD50DF15CE6BA1049ECBDB4 /* NicooSwiftRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E8F8E9B0D4834DCA36ADCF5E5A209A /* NicooSwiftRouter.framework */; };
+		1A0FB0E6B3E719608A7F39E99925B743 /* Target_RouterApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29410EA7DB6518F25B3B9B4174B2FB5 /* Target_RouterApi.swift */; };
+		24A0AC1AC5DFD541CDA6938EA3C448B5 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE10EA01CA54926DE2D8FFB83051383 /* ConstraintDescription.swift */; };
+		2B14BBD5EE0A28643719F448E4295987 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2926E7CA8423D63A75A0B632F2FA2F /* ConstraintViewDSL.swift */; };
+		32745459E85E103F0E3CF7AAAA59486E /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF59E36D4DF170FF2422FC8B452E731D /* ConstraintLayoutGuide+Extensions.swift */; };
+		35E6828DD334E46344CA30805CC7C901 /* SourceBoudleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E8D30F3791D7029E07DF0EA69A4738 /* SourceBoudleManager.swift */; };
+		38580E829BF6F94B8FB40D75F2681B9E /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05955647218831936AD075987A0818E8 /* ConstraintMaker.swift */; };
+		408797C540DD92FD556894C28E8CAA2E /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EE880C0568A2ADE3A632F1E5BE5974 /* LayoutConstraint.swift */; };
+		41CC254E52BA87FC1C65F254BE1A2F5A /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272D5863DA3DC6CAA50DF80EC0362FD7 /* ConstraintLayoutSupportDSL.swift */; };
+		42DF130CA8661499BFA2CB4975786564 /* RouterTestModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7B1C54DD1A56BFA71187E5B1B0ADE1 /* RouterTestModule-dummy.m */; };
+		4432895EF0FAABF9850719CBA037F1EC /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A13098BF512B077815818A971879DB /* ConstraintView.swift */; };
+		45B5E7BC0902484ABD63DE685FC60F45 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6336763DF9046609C3ABAFB9953641AC /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B71BD19EA6862065242E30523F03672 /* RightMuneTabel.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2E51776E764AB36BE4652583AC819EC3 /* RightMuneTabel.bundle */; };
+		5025A0302B27F1DBE19754B1904FCF04 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE374DE773C0BAF829908031357D8EC /* ConstraintMakerRelatable.swift */; };
+		50E5029CA0D4EAFDF93B14CA44E6ACA0 /* Pods-NicooRouterTestProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1224E2555CA5FA32BEBDECB419D0D417 /* Pods-NicooRouterTestProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55AB60123A6942825470E5C6B7B169BD /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732B2B59A9C09D1BA06877E2260E4845 /* ConstraintPriority.swift */; };
+		595B08EAD02583A3ADD6C3ADB9EA7DB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4118D1C8E2C51C9A04C894BE3175B34 /* Foundation.framework */; };
+		5E3C827A9D3DD7DA2B464E67EDCFC5DD /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE27818FF535CBB32C22990A8ECDA6E4 /* LayoutConstraintItem.swift */; };
+		64C815B09D6E802F866D00ABE11697E5 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0037A9E4CB8F2F06F38E25896C66F7 /* ConstraintOffsetTarget.swift */; };
+		68E4D9BB4CFE864D221C02DB567B7E82 /* RightMuneTabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA4E17E56F682E63C2349CF9DC537069 /* RightMuneTabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69E02DC524A9A29E07A6E90A33096598 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5034E53CFC03ACCC9F07FA0EF45712 /* ConstraintPriorityTarget.swift */; };
+		6B1D15381A0DE399822637CE55963920 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF1683D6DC5B99246236E93689D3BA2 /* SnapKit-dummy.m */; };
+		6C44A6C05DFD2FD55B559229CA987F08 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7778A6DEF06F88937FE2DA36DE6306 /* Constraint.swift */; };
+		75D663F34396D1F0D1DD37366A6D8D51 /* NicooSwiftRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E8F8E9B0D4834DCA36ADCF5E5A209A /* NicooSwiftRouter.framework */; };
+		7CB551B3535DDA97F9240274BCC07F26 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244029EEAD5F4A1891974DA281715266 /* ConstraintMakerFinalizable.swift */; };
+		7F248C7DF2913D79F471EF92B46EFF4D /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F094AD05816F7782435FBACAA0985867 /* ConstraintInsets.swift */; };
+		85924109F2D41AEB857C9B44809B6D5F /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F078FF6E56E6E79A528D034FC39E817A /* ConstraintInsetTarget.swift */; };
+		93CC930ECF180EA12321E20970BD1D0D /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6422174DA4C1B8B638B914100CF352A /* ConstraintLayoutGuideDSL.swift */; };
+		94F05CE5CC8E151A7E2369A99441BFBF /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6860E422A20ECAF548134E070F7182 /* SnapKit.framework */; };
+		959BF2F00AA89A2DF7440ED33E2437A2 /* RightMuneTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57854A2038A396FD260E70F70976CDD5 /* RightMuneTable.swift */; };
+		9B3A5C653383C3D184444CA1894E0291 /* NicooSwiftRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8981DDD759471031B630193EFDC6B820 /* NicooSwiftRouter-dummy.m */; };
+		A7335E297B8E614E6F7CDE9A95F08E15 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = A273843EDA1337139E697AF6BD6F5D83 /* Debugging.swift */; };
+		A87BA73A4E9597199BB63262910A7835 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084E737B8CAE6C9C0DDEC135896921C7 /* ConstraintRelatableTarget.swift */; };
+		AA19A71696A959666641BBC340EC9106 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC64AB7562D6FCA0D835C9922552CA5 /* ConstraintMakerEditable.swift */; };
+		AC668D46012C98C3B961A50C691012DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4118D1C8E2C51C9A04C894BE3175B34 /* Foundation.framework */; };
+		AD00EAE06064CA1ADD74D34AEBC2DBA3 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2B88787A583CC75D96E99EC5B2A066 /* ConstraintMultiplierTarget.swift */; };
+		B6B37D858C0CA55FD44E222F717354D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4118D1C8E2C51C9A04C894BE3175B34 /* Foundation.framework */; };
+		BC17BF96A0CE8AEC3CA7D1EE40FFA107 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4DCC4BA682D6297CF7C84707130530 /* ConstraintDSL.swift */; };
+		BE5118B13717CFBCC491507F18D370BC /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB230CD748B69833B9C30CF33962006C /* ConstraintItem.swift */; };
+		D43712AECBF8768D844B123E94A1A574 /* NicooSwiftRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1F9FD42AA83FA5259BF2B605CDC5F7D /* NicooSwiftRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D718961936C48180F8C46B16D9F914D8 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C456F3339224DBAAEAF67BED83CDA613 /* ConstraintView+Extensions.swift */; };
+		DA59F42C66D66AA6510233004E7A0980 /* RightMuneTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985200A4D87D4D91A179081B150F23F1 /* RightMuneTableCell.swift */; };
+		DAFF341599352F5C5F07DEA6D35DF852 /* NicooSwiftRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA59E1C1DFBA3839A599A2C5D97F7E7 /* NicooSwiftRouter.swift */; };
+		DC3A99137B5CB65C1E2E153FDED107D3 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6CB4483BD1B63161DB23A377241894 /* ConstraintLayoutSupport.swift */; };
+		DC84234FC4FF943F6511C1D377ED4475 /* Service_RouterApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8AA5D067257E5C259C4D4922FC0D1B /* Service_RouterApi.swift */; };
+		DE20E6E0FFDE435E64379324CE49B6CB /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77D204A9A3A399AFF9E9E80BA179E0 /* ConstraintMakerPriortizable.swift */; };
+		DF9B61787FFBBC1D17F9CA0960B96709 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A7C2B1F99624C28A8399E7B0B4332B /* Typealiases.swift */; };
+		E4B30EAAD47C67EE30C0C3882F7533D5 /* muneBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B10B8E3C5374F3E5E0A36CF9A0CBB9E /* muneBg.png */; };
+		E4DB17045F9AAF7F722E125080D17D73 /* RouterTestModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9132A4BBCF8BEFC99657E76E2E1C255E /* RouterTestModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5EAC122D4A1554EB38978E084F65E19 /* RouterTestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA52F5C88C1EB9368DEA087C756AB43B /* RouterTestClass.swift */; };
+		E6775BB2B8F1F6E0222D390D9EE3511F /* Pods-NicooRouterTestProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0582EE4FD5A9368BD8D885D29266937 /* Pods-NicooRouterTestProject-dummy.m */; };
+		E7CDB04C24A5EA75FF3735DFBF880D90 /* RightMuneTabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A0AB3B3EE264EED858ACE88DBCC574 /* RightMuneTabel-dummy.m */; };
+		E9399695FAC4A78B1A13898B872327CC /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A64F3965E271B2DE9FEB2BEAE41A75A /* UILayoutSupport+Extensions.swift */; };
+		F0BBBCB5033385B4C154CC954F7269A5 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0654D9522483027060B8D97BAC8A0FF8 /* ConstraintLayoutGuide.swift */; };
+		FD1A75AD1A05D1500BDB18E92A7EC197 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3917332BA35143DDD8DC65972674398E /* ConstraintMakerExtendable.swift */; };
+		FF3E59CC8FDFBA80F0460B9D133FAF90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4118D1C8E2C51C9A04C894BE3175B34 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08A0EDEEFD731C6B10BAC165B43005A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73682EAD635E600E25A0EF7FAFBE5933;
+			remoteInfo = SnapKit;
+		};
+		11B32229638EC6685C7F338352E7DD93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CA586CC56A2F2C304FCF920A2B5787E;
+			remoteInfo = RouterTestModule;
+		};
+		3549EB475E29BBE39CF51790F449067C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AF1AB332423380F8FD64973F892E409;
+			remoteInfo = RightMuneTabel;
+		};
+		5A3D2FD0B8D464E90C846FE58EDD6115 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51EE859E08FCAE3C74BF033F25304B9D;
+			remoteInfo = NicooSwiftRouter;
+		};
+		6E2BEC8980B4A7F888EBE53FA8ACDE69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73682EAD635E600E25A0EF7FAFBE5933;
+			remoteInfo = SnapKit;
+		};
+		86BE3674D2AA977FF48625E1DE27DB66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 826782E9B8F735C6B8E0DD662DE7B82E;
+			remoteInfo = "RightMuneTabel-RightMuneTabel";
+		};
+		9E61438BCC90A01DA6464C8B4CC5A203 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51EE859E08FCAE3C74BF033F25304B9D;
+			remoteInfo = NicooSwiftRouter;
+		};
+		AED5A3C0FC300D81D8A1C20BBE0629B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51EE859E08FCAE3C74BF033F25304B9D;
+			remoteInfo = NicooSwiftRouter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02B473A4C8D33E74559B462D0E88BDE4 /* Pods-NicooRouterTestProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NicooRouterTestProject-acknowledgements.plist"; sourceTree = "<group>"; };
+		04218ED2B17B4CEE152046A6D0CF396B /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		04583CA88904A6EA2F4C0F60B2C564BD /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		0568E529C4C7E5E4522F684A1ABDF820 /* Pods-NicooRouterTestProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NicooRouterTestProject.modulemap"; sourceTree = "<group>"; };
+		05955647218831936AD075987A0818E8 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+		0654D9522483027060B8D97BAC8A0FF8 /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		084E737B8CAE6C9C0DDEC135896921C7 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		086C1405399BE7D9E0FC80F69D1C2B15 /* Pods-NicooRouterTestProject-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NicooRouterTestProject-frameworks.sh"; sourceTree = "<group>"; };
+		0A64F3965E271B2DE9FEB2BEAE41A75A /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		0F77D204A9A3A399AFF9E9E80BA179E0 /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
+		10496600B40E24724FF61EFDD2EA8612 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		1224E2555CA5FA32BEBDECB419D0D417 /* Pods-NicooRouterTestProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NicooRouterTestProject-umbrella.h"; sourceTree = "<group>"; };
+		1747F839557CC242EAA51657CEAFEEA5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D8AA5D067257E5C259C4D4922FC0D1B /* Service_RouterApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Service_RouterApi.swift; path = RightMuneTabel/Classes/Service_RouterApi.swift; sourceTree = "<group>"; };
+		1F2B88787A583CC75D96E99EC5B2A066 /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		21B5FAB008B5FD6720D1EA779C4FBC26 /* Pods-NicooRouterTestProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NicooRouterTestProject-acknowledgements.markdown"; sourceTree = "<group>"; };
+		22A13098BF512B077815818A971879DB /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
+		244029EEAD5F4A1891974DA281715266 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		272D5863DA3DC6CAA50DF80EC0362FD7 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		2E51776E764AB36BE4652583AC819EC3 /* RightMuneTabel.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = RightMuneTabel.bundle; path = "RightMuneTabel-RightMuneTabel.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30609AFDB7E4773BC8879BE45FBDF4FA /* Pods_NicooRouterTestProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NicooRouterTestProject.framework; path = "Pods-NicooRouterTestProject.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35F0430C2A6CFFBAF387761039B84073 /* RouterTestModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RouterTestModule-prefix.pch"; sourceTree = "<group>"; };
+		38A7C2B1F99624C28A8399E7B0B4332B /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Source/Typealiases.swift; sourceTree = "<group>"; };
+		3917332BA35143DDD8DC65972674398E /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		3AC64AB7562D6FCA0D835C9922552CA5 /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		42F14CBEB7578515B6A792665DD2091C /* Pods-NicooRouterTestProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NicooRouterTestProject.debug.xcconfig"; sourceTree = "<group>"; };
+		45EE880C0568A2ADE3A632F1E5BE5974 /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		53313DA519EC465845873DB500A10A8A /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
+		55E8F8E9B0D4834DCA36ADCF5E5A209A /* NicooSwiftRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NicooSwiftRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55FC5C2AE6261BB8C4B3E3B9296EB8DF /* RouterTestModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RouterTestModule.modulemap; sourceTree = "<group>"; };
+		57854A2038A396FD260E70F70976CDD5 /* RightMuneTable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RightMuneTable.swift; path = RightMuneTabel/Classes/RightMuneTable.swift; sourceTree = "<group>"; };
+		5A6CB4483BD1B63161DB23A377241894 /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		5B10B8E3C5374F3E5E0A36CF9A0CBB9E /* muneBg.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = muneBg.png; path = RightMuneTabel/Assets/muneBg.png; sourceTree = "<group>"; };
+		5B4DCC4BA682D6297CF7C84707130530 /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
+		5BFFCD3F0C78C8F708E5DD0B148F008A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6336763DF9046609C3ABAFB9953641AC /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		653D432256CB36B9F00773AC014697DF /* ResourceBundle-RightMuneTabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-RightMuneTabel-Info.plist"; sourceTree = "<group>"; };
+		66AD78FC0FDE9E2D607239376083010F /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		732B2B59A9C09D1BA06877E2260E4845 /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
+		7F0037A9E4CB8F2F06F38E25896C66F7 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		856E1E9DA6F55F397FF3F7B1F7450E0B /* RightMuneTabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RightMuneTabel.modulemap; sourceTree = "<group>"; };
+		8981DDD759471031B630193EFDC6B820 /* NicooSwiftRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NicooSwiftRouter-dummy.m"; sourceTree = "<group>"; };
+		8C5034E53CFC03ACCC9F07FA0EF45712 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		8CA59E1C1DFBA3839A599A2C5D97F7E7 /* NicooSwiftRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NicooSwiftRouter.swift; path = NicooSwiftRouter/Classes/NicooSwiftRouter.swift; sourceTree = "<group>"; };
+		9132A4BBCF8BEFC99657E76E2E1C255E /* RouterTestModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RouterTestModule-umbrella.h"; sourceTree = "<group>"; };
+		920478B73EEAC3CE08F9DCEC0A508FDE /* RouterTestModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RouterTestModule.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		985200A4D87D4D91A179081B150F23F1 /* RightMuneTableCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RightMuneTableCell.swift; path = RightMuneTabel/Classes/RightMuneTableCell.swift; sourceTree = "<group>"; };
+		A273843EDA1337139E697AF6BD6F5D83 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		AB230CD748B69833B9C30CF33962006C /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
+		ADF1683D6DC5B99246236E93689D3BA2 /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
+		AF0EB0617FFFEF3FF7928675FAD46475 /* NicooSwiftRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NicooSwiftRouter.xcconfig; sourceTree = "<group>"; };
+		AF59E36D4DF170FF2422FC8B452E731D /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		B0E8D30F3791D7029E07DF0EA69A4738 /* SourceBoudleManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourceBoudleManager.swift; path = RightMuneTabel/Classes/SourceBoudleManager.swift; sourceTree = "<group>"; };
+		B1F9FD42AA83FA5259BF2B605CDC5F7D /* NicooSwiftRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NicooSwiftRouter-umbrella.h"; sourceTree = "<group>"; };
+		B7B4DFB16FC5F27CDEB1B30134FDFAE7 /* RightMuneTabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RightMuneTabel.framework; path = RightMuneTabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7E38563AB214C57E87EE194C35A71DB /* Pods-NicooRouterTestProject-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NicooRouterTestProject-resources.sh"; sourceTree = "<group>"; };
+		BBE374DE773C0BAF829908031357D8EC /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+		C0582EE4FD5A9368BD8D885D29266937 /* Pods-NicooRouterTestProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NicooRouterTestProject-dummy.m"; sourceTree = "<group>"; };
+		C1964DB9C849236F0AAF6C2933482A7D /* RouterTestModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RouterTestModule.framework; path = RouterTestModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1D61AAD76B4DC0A95FE305F9AEEC313 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C456F3339224DBAAEAF67BED83CDA613 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		C5C852AE027E9D50649BAA8E50B64FF0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6422174DA4C1B8B638B914100CF352A /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		CA52F5C88C1EB9368DEA087C756AB43B /* RouterTestClass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RouterTestClass.swift; path = RouterTestModule/Classes/RouterTestClass.swift; sourceTree = "<group>"; };
+		CA86F26B6E99A1B1B4E0033892190CD3 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		CB2926E7CA8423D63A75A0B632F2FA2F /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		CC2BEEBF0ECAF763E29995C89A59CC51 /* NicooSwiftRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NicooSwiftRouter.modulemap; sourceTree = "<group>"; };
+		CCE10EA01CA54926DE2D8FFB83051383 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
+		CEC11A60B01DF8E7FE3AFAAD31953915 /* RightMuneTabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RightMuneTabel.xcconfig; sourceTree = "<group>"; };
+		CF6860E422A20ECAF548134E070F7182 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D881C0006C375766FC16AAB99A2E0CB7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0A0AB3B3EE264EED858ACE88DBCC574 /* RightMuneTabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RightMuneTabel-dummy.m"; sourceTree = "<group>"; };
+		E278BD65106F0156928E617E9810185F /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
+		E4118D1C8E2C51C9A04C894BE3175B34 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E629C98CBEC278478DF59957F9F4E0EA /* NicooSwiftRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NicooSwiftRouter.framework; path = NicooSwiftRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA4E17E56F682E63C2349CF9DC537069 /* RightMuneTabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RightMuneTabel-umbrella.h"; sourceTree = "<group>"; };
+		EB7B1C54DD1A56BFA71187E5B1B0ADE1 /* RouterTestModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RouterTestModule-dummy.m"; sourceTree = "<group>"; };
+		EE27818FF535CBB32C22990A8ECDA6E4 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		F078FF6E56E6E79A528D034FC39E817A /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		F094AD05816F7782435FBACAA0985867 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
+		F29410EA7DB6518F25B3B9B4174B2FB5 /* Target_RouterApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Target_RouterApi.swift; path = RightMuneTabel/Classes/Target_RouterApi.swift; sourceTree = "<group>"; };
+		F8487E18900FC5A4E77A6E4D99EE7987 /* NicooSwiftRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NicooSwiftRouter-prefix.pch"; sourceTree = "<group>"; };
+		F85A82FF5876427615B70A6486E2BA68 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8A1CDF9BD7F28E9CCBCB59FE5CCBAEE /* Pods-NicooRouterTestProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NicooRouterTestProject.release.xcconfig"; sourceTree = "<group>"; };
+		FB7778A6DEF06F88937FE2DA36DE6306 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
+		FD5A244FC9DFAD8AD82F295B6E9B9465 /* RightMuneTabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RightMuneTabel-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10E965F394E5EF8DEC70905B3D9E68FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC668D46012C98C3B961A50C691012DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		138FE6BE0FAD7FD72C5CD52C9D29DDE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57FB5C4AC49C53D8B55450B42D9E7EF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3E59CC8FDFBA80F0460B9D133FAF90 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59FBB587573A8FE369BC8A9032674BA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B37D858C0CA55FD44E222F717354D9 /* Foundation.framework in Frameworks */,
+				1469AABFEDD50DF15CE6BA1049ECBDB4 /* NicooSwiftRouter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7549E62A946F7F086B50142DED6AACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10B8578C4F6A9175BE1CC42C028D65A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8861B6C959C88BD222EF860E45C244D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				595B08EAD02583A3ADD6C3ADB9EA7DB7 /* Foundation.framework in Frameworks */,
+				75D663F34396D1F0D1DD37366A6D8D51 /* NicooSwiftRouter.framework in Frameworks */,
+				94F05CE5CC8E151A7E2369A99441BFBF /* SnapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03E9E77F778F84A95DEE6D72E967B24C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				158FD06A56E0DA2A86922FF6F562A096 /* NicooSwiftRouter */,
+				F55CA033ED308C1BA2734845A98D323A /* RightMuneTabel */,
+				ADC6D24B37BAD31C63DB0AEED2CF9DB1 /* RouterTestModule */,
+				1937ADEBF1AA9EE6D815696D8D626D32 /* SnapKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		158FD06A56E0DA2A86922FF6F562A096 /* NicooSwiftRouter */ = {
+			isa = PBXGroup;
+			children = (
+				8CA59E1C1DFBA3839A599A2C5D97F7E7 /* NicooSwiftRouter.swift */,
+				D96C23F66B45DDA54D941F4E2B74D488 /* Support Files */,
+			);
+			name = NicooSwiftRouter;
+			path = NicooSwiftRouter;
+			sourceTree = "<group>";
+		};
+		1937ADEBF1AA9EE6D815696D8D626D32 /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				FB7778A6DEF06F88937FE2DA36DE6306 /* Constraint.swift */,
+				CA86F26B6E99A1B1B4E0033892190CD3 /* ConstraintAttributes.swift */,
+				53313DA519EC465845873DB500A10A8A /* ConstraintConfig.swift */,
+				66AD78FC0FDE9E2D607239376083010F /* ConstraintConstantTarget.swift */,
+				CCE10EA01CA54926DE2D8FFB83051383 /* ConstraintDescription.swift */,
+				5B4DCC4BA682D6297CF7C84707130530 /* ConstraintDSL.swift */,
+				F094AD05816F7782435FBACAA0985867 /* ConstraintInsets.swift */,
+				F078FF6E56E6E79A528D034FC39E817A /* ConstraintInsetTarget.swift */,
+				AB230CD748B69833B9C30CF33962006C /* ConstraintItem.swift */,
+				0654D9522483027060B8D97BAC8A0FF8 /* ConstraintLayoutGuide.swift */,
+				AF59E36D4DF170FF2422FC8B452E731D /* ConstraintLayoutGuide+Extensions.swift */,
+				C6422174DA4C1B8B638B914100CF352A /* ConstraintLayoutGuideDSL.swift */,
+				5A6CB4483BD1B63161DB23A377241894 /* ConstraintLayoutSupport.swift */,
+				272D5863DA3DC6CAA50DF80EC0362FD7 /* ConstraintLayoutSupportDSL.swift */,
+				05955647218831936AD075987A0818E8 /* ConstraintMaker.swift */,
+				3AC64AB7562D6FCA0D835C9922552CA5 /* ConstraintMakerEditable.swift */,
+				3917332BA35143DDD8DC65972674398E /* ConstraintMakerExtendable.swift */,
+				244029EEAD5F4A1891974DA281715266 /* ConstraintMakerFinalizable.swift */,
+				0F77D204A9A3A399AFF9E9E80BA179E0 /* ConstraintMakerPriortizable.swift */,
+				BBE374DE773C0BAF829908031357D8EC /* ConstraintMakerRelatable.swift */,
+				1F2B88787A583CC75D96E99EC5B2A066 /* ConstraintMultiplierTarget.swift */,
+				7F0037A9E4CB8F2F06F38E25896C66F7 /* ConstraintOffsetTarget.swift */,
+				732B2B59A9C09D1BA06877E2260E4845 /* ConstraintPriority.swift */,
+				8C5034E53CFC03ACCC9F07FA0EF45712 /* ConstraintPriorityTarget.swift */,
+				084E737B8CAE6C9C0DDEC135896921C7 /* ConstraintRelatableTarget.swift */,
+				10496600B40E24724FF61EFDD2EA8612 /* ConstraintRelation.swift */,
+				22A13098BF512B077815818A971879DB /* ConstraintView.swift */,
+				C456F3339224DBAAEAF67BED83CDA613 /* ConstraintView+Extensions.swift */,
+				CB2926E7CA8423D63A75A0B632F2FA2F /* ConstraintViewDSL.swift */,
+				A273843EDA1337139E697AF6BD6F5D83 /* Debugging.swift */,
+				45EE880C0568A2ADE3A632F1E5BE5974 /* LayoutConstraint.swift */,
+				EE27818FF535CBB32C22990A8ECDA6E4 /* LayoutConstraintItem.swift */,
+				38A7C2B1F99624C28A8399E7B0B4332B /* Typealiases.swift */,
+				0A64F3965E271B2DE9FEB2BEAE41A75A /* UILayoutSupport+Extensions.swift */,
+				BAC7A6B82577EB46904C74D271D4868D /* Support Files */,
+			);
+			name = SnapKit;
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		34201A5C577EC05C641C43D3F65B4714 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5B10B8E3C5374F3E5E0A36CF9A0CBB9E /* muneBg.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3F7030D761468CE17BC8EA9288BC7534 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E4118D1C8E2C51C9A04C894BE3175B34 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4A0F0F06A322F7AAA9EE19668A4C1A15 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F85A82FF5876427615B70A6486E2BA68 /* Info.plist */,
+				55FC5C2AE6261BB8C4B3E3B9296EB8DF /* RouterTestModule.modulemap */,
+				920478B73EEAC3CE08F9DCEC0A508FDE /* RouterTestModule.xcconfig */,
+				EB7B1C54DD1A56BFA71187E5B1B0ADE1 /* RouterTestModule-dummy.m */,
+				35F0430C2A6CFFBAF387761039B84073 /* RouterTestModule-prefix.pch */,
+				9132A4BBCF8BEFC99657E76E2E1C255E /* RouterTestModule-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RouterTestModule";
+			sourceTree = "<group>";
+		};
+		5CB4D29D039BF4E0D80608F9680AE222 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5C852AE027E9D50649BAA8E50B64FF0 /* Info.plist */,
+				653D432256CB36B9F00773AC014697DF /* ResourceBundle-RightMuneTabel-Info.plist */,
+				856E1E9DA6F55F397FF3F7B1F7450E0B /* RightMuneTabel.modulemap */,
+				CEC11A60B01DF8E7FE3AFAAD31953915 /* RightMuneTabel.xcconfig */,
+				E0A0AB3B3EE264EED858ACE88DBCC574 /* RightMuneTabel-dummy.m */,
+				FD5A244FC9DFAD8AD82F295B6E9B9465 /* RightMuneTabel-prefix.pch */,
+				EA4E17E56F682E63C2349CF9DC537069 /* RightMuneTabel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RightMuneTabel";
+			sourceTree = "<group>";
+		};
+		5E6E647C9B83279D7C927A5C9641363C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B810B522A00AD5F2CCBE9C947065241F /* Pods-NicooRouterTestProject */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6960C4C1B5BD6CE378A090721FD55874 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55E8F8E9B0D4834DCA36ADCF5E5A209A /* NicooSwiftRouter.framework */,
+				CF6860E422A20ECAF548134E070F7182 /* SnapKit.framework */,
+				3F7030D761468CE17BC8EA9288BC7534 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				6960C4C1B5BD6CE378A090721FD55874 /* Frameworks */,
+				03E9E77F778F84A95DEE6D72E967B24C /* Pods */,
+				C605F1FF5443AB9C39B7FD92C90B9CA1 /* Products */,
+				5E6E647C9B83279D7C927A5C9641363C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		ADC6D24B37BAD31C63DB0AEED2CF9DB1 /* RouterTestModule */ = {
+			isa = PBXGroup;
+			children = (
+				CA52F5C88C1EB9368DEA087C756AB43B /* RouterTestClass.swift */,
+				4A0F0F06A322F7AAA9EE19668A4C1A15 /* Support Files */,
+			);
+			name = RouterTestModule;
+			path = RouterTestModule;
+			sourceTree = "<group>";
+		};
+		B810B522A00AD5F2CCBE9C947065241F /* Pods-NicooRouterTestProject */ = {
+			isa = PBXGroup;
+			children = (
+				1747F839557CC242EAA51657CEAFEEA5 /* Info.plist */,
+				0568E529C4C7E5E4522F684A1ABDF820 /* Pods-NicooRouterTestProject.modulemap */,
+				21B5FAB008B5FD6720D1EA779C4FBC26 /* Pods-NicooRouterTestProject-acknowledgements.markdown */,
+				02B473A4C8D33E74559B462D0E88BDE4 /* Pods-NicooRouterTestProject-acknowledgements.plist */,
+				C0582EE4FD5A9368BD8D885D29266937 /* Pods-NicooRouterTestProject-dummy.m */,
+				086C1405399BE7D9E0FC80F69D1C2B15 /* Pods-NicooRouterTestProject-frameworks.sh */,
+				B7E38563AB214C57E87EE194C35A71DB /* Pods-NicooRouterTestProject-resources.sh */,
+				1224E2555CA5FA32BEBDECB419D0D417 /* Pods-NicooRouterTestProject-umbrella.h */,
+				42F14CBEB7578515B6A792665DD2091C /* Pods-NicooRouterTestProject.debug.xcconfig */,
+				F8A1CDF9BD7F28E9CCBCB59FE5CCBAEE /* Pods-NicooRouterTestProject.release.xcconfig */,
+			);
+			name = "Pods-NicooRouterTestProject";
+			path = "Target Support Files/Pods-NicooRouterTestProject";
+			sourceTree = "<group>";
+		};
+		BAC7A6B82577EB46904C74D271D4868D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D881C0006C375766FC16AAB99A2E0CB7 /* Info.plist */,
+				04583CA88904A6EA2F4C0F60B2C564BD /* SnapKit.modulemap */,
+				E278BD65106F0156928E617E9810185F /* SnapKit.xcconfig */,
+				ADF1683D6DC5B99246236E93689D3BA2 /* SnapKit-dummy.m */,
+				04218ED2B17B4CEE152046A6D0CF396B /* SnapKit-prefix.pch */,
+				6336763DF9046609C3ABAFB9953641AC /* SnapKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapKit";
+			sourceTree = "<group>";
+		};
+		C605F1FF5443AB9C39B7FD92C90B9CA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E629C98CBEC278478DF59957F9F4E0EA /* NicooSwiftRouter.framework */,
+				30609AFDB7E4773BC8879BE45FBDF4FA /* Pods_NicooRouterTestProject.framework */,
+				2E51776E764AB36BE4652583AC819EC3 /* RightMuneTabel.bundle */,
+				B7B4DFB16FC5F27CDEB1B30134FDFAE7 /* RightMuneTabel.framework */,
+				C1964DB9C849236F0AAF6C2933482A7D /* RouterTestModule.framework */,
+				C1D61AAD76B4DC0A95FE305F9AEEC313 /* SnapKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D96C23F66B45DDA54D941F4E2B74D488 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BFFCD3F0C78C8F708E5DD0B148F008A /* Info.plist */,
+				CC2BEEBF0ECAF763E29995C89A59CC51 /* NicooSwiftRouter.modulemap */,
+				AF0EB0617FFFEF3FF7928675FAD46475 /* NicooSwiftRouter.xcconfig */,
+				8981DDD759471031B630193EFDC6B820 /* NicooSwiftRouter-dummy.m */,
+				F8487E18900FC5A4E77A6E4D99EE7987 /* NicooSwiftRouter-prefix.pch */,
+				B1F9FD42AA83FA5259BF2B605CDC5F7D /* NicooSwiftRouter-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NicooSwiftRouter";
+			sourceTree = "<group>";
+		};
+		F55CA033ED308C1BA2734845A98D323A /* RightMuneTabel */ = {
+			isa = PBXGroup;
+			children = (
+				57854A2038A396FD260E70F70976CDD5 /* RightMuneTable.swift */,
+				985200A4D87D4D91A179081B150F23F1 /* RightMuneTableCell.swift */,
+				1D8AA5D067257E5C259C4D4922FC0D1B /* Service_RouterApi.swift */,
+				B0E8D30F3791D7029E07DF0EA69A4738 /* SourceBoudleManager.swift */,
+				F29410EA7DB6518F25B3B9B4174B2FB5 /* Target_RouterApi.swift */,
+				34201A5C577EC05C641C43D3F65B4714 /* Resources */,
+				5CB4D29D039BF4E0D80608F9680AE222 /* Support Files */,
+			);
+			name = RightMuneTabel;
+			path = RightMuneTabel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1ACE2F50CC0B4EB6EF87117E9603B77A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E4D9BB4CFE864D221C02DB567B7E82 /* RightMuneTabel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B31A357D13F7389F234B2F60904FA6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45B5E7BC0902484ABD63DE685FC60F45 /* SnapKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2982CEED8B4A69BCD3A075635517E91 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43712AECBF8768D844B123E94A1A574 /* NicooSwiftRouter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB203BF24D24A56AFDE7BB908D0BA7B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4DB17045F9AAF7F722E125080D17D73 /* RouterTestModule-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F490A8FB953119873C09FC530759B141 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E5029CA0D4EAFDF93B14CA44E6ACA0 /* Pods-NicooRouterTestProject-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1CA586CC56A2F2C304FCF920A2B5787E /* RouterTestModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40EB50203E82F6898FB8A0EF944C3902 /* Build configuration list for PBXNativeTarget "RouterTestModule" */;
+			buildPhases = (
+				CB532F743F610FBA079E8C8D8D36C746 /* Sources */,
+				59FBB587573A8FE369BC8A9032674BA6 /* Frameworks */,
+				EB203BF24D24A56AFDE7BB908D0BA7B8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				094B21FCA8B9D2A6C4532A85477C65E2 /* PBXTargetDependency */,
+			);
+			name = RouterTestModule;
+			productName = RouterTestModule;
+			productReference = C1964DB9C849236F0AAF6C2933482A7D /* RouterTestModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		51EE859E08FCAE3C74BF033F25304B9D /* NicooSwiftRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7862FCD6678F308E75478BB8F249F1D /* Build configuration list for PBXNativeTarget "NicooSwiftRouter" */;
+			buildPhases = (
+				10B585C7597920C0FC0172B70E51CC36 /* Sources */,
+				57FB5C4AC49C53D8B55450B42D9E7EF0 /* Frameworks */,
+				E2982CEED8B4A69BCD3A075635517E91 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NicooSwiftRouter;
+			productName = NicooSwiftRouter;
+			productReference = E629C98CBEC278478DF59957F9F4E0EA /* NicooSwiftRouter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		73682EAD635E600E25A0EF7FAFBE5933 /* SnapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92A98841CAA17109697BA7F60C19B430 /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildPhases = (
+				0CCC78F1D4BB30631D9E2D95A3CCEB6D /* Sources */,
+				10E965F394E5EF8DEC70905B3D9E68FB /* Frameworks */,
+				74B31A357D13F7389F234B2F60904FA6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapKit;
+			productName = SnapKit;
+			productReference = C1D61AAD76B4DC0A95FE305F9AEEC313 /* SnapKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7437ED4CB2D5502B54491A468A3458E7 /* Pods-NicooRouterTestProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F52E1ADFB9F5616C90A7622DEE79269 /* Build configuration list for PBXNativeTarget "Pods-NicooRouterTestProject" */;
+			buildPhases = (
+				9B7EC6FBAC71E9B6C8031282A9428517 /* Sources */,
+				A7549E62A946F7F086B50142DED6AACC /* Frameworks */,
+				F490A8FB953119873C09FC530759B141 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51CA34807376F0B92152C7197AD5499A /* PBXTargetDependency */,
+				6534F61F640774A6CEF62A2EC8308D38 /* PBXTargetDependency */,
+				FA57C4C6887D659515D43E017577C97F /* PBXTargetDependency */,
+				FD9288AC9BDBFAE6B28AA6E90FEACD4B /* PBXTargetDependency */,
+			);
+			name = "Pods-NicooRouterTestProject";
+			productName = "Pods-NicooRouterTestProject";
+			productReference = 30609AFDB7E4773BC8879BE45FBDF4FA /* Pods_NicooRouterTestProject.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7AF1AB332423380F8FD64973F892E409 /* RightMuneTabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B88672E29615D003CC1DB2123E77F7BA /* Build configuration list for PBXNativeTarget "RightMuneTabel" */;
+			buildPhases = (
+				F0B76EC3771CCED44F6405B5CFE13C70 /* Sources */,
+				E8861B6C959C88BD222EF860E45C244D /* Frameworks */,
+				DF79663B4A0ED449E841A01D602686ED /* Resources */,
+				1ACE2F50CC0B4EB6EF87117E9603B77A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9C54CE716D76F9EB8E27CF4B4AB99CA /* PBXTargetDependency */,
+				1074CA40A81A950031031FC19BCEC1D4 /* PBXTargetDependency */,
+				3C32D7E77923D2889F54F5554D152E1D /* PBXTargetDependency */,
+			);
+			name = RightMuneTabel;
+			productName = RightMuneTabel;
+			productReference = B7B4DFB16FC5F27CDEB1B30134FDFAE7 /* RightMuneTabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		826782E9B8F735C6B8E0DD662DE7B82E /* RightMuneTabel-RightMuneTabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94F0CD09EE5E52C3A7FCB06B0E7BD8D8 /* Build configuration list for PBXNativeTarget "RightMuneTabel-RightMuneTabel" */;
+			buildPhases = (
+				F401BD3E3DDABB66482CABEFC95B0D59 /* Sources */,
+				138FE6BE0FAD7FD72C5CD52C9D29DDE2 /* Frameworks */,
+				E6C2185BC1C5AC36C416A76E958D082A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RightMuneTabel-RightMuneTabel";
+			productName = "RightMuneTabel-RightMuneTabel";
+			productReference = 2E51776E764AB36BE4652583AC819EC3 /* RightMuneTabel.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C605F1FF5443AB9C39B7FD92C90B9CA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51EE859E08FCAE3C74BF033F25304B9D /* NicooSwiftRouter */,
+				7437ED4CB2D5502B54491A468A3458E7 /* Pods-NicooRouterTestProject */,
+				7AF1AB332423380F8FD64973F892E409 /* RightMuneTabel */,
+				826782E9B8F735C6B8E0DD662DE7B82E /* RightMuneTabel-RightMuneTabel */,
+				1CA586CC56A2F2C304FCF920A2B5787E /* RouterTestModule */,
+				73682EAD635E600E25A0EF7FAFBE5933 /* SnapKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF79663B4A0ED449E841A01D602686ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B71BD19EA6862065242E30523F03672 /* RightMuneTabel.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6C2185BC1C5AC36C416A76E958D082A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B30EAAD47C67EE30C0C3882F7533D5 /* muneBg.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CCC78F1D4BB30631D9E2D95A3CCEB6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C44A6C05DFD2FD55B559229CA987F08 /* Constraint.swift in Sources */,
+				0712F8B2A687BC71196BB4A01B93F343 /* ConstraintAttributes.swift in Sources */,
+				10898E03505C5B7EFE84C12F0EE1ED95 /* ConstraintConfig.swift in Sources */,
+				06E7618F9BF1C54875616314BA5E0049 /* ConstraintConstantTarget.swift in Sources */,
+				24A0AC1AC5DFD541CDA6938EA3C448B5 /* ConstraintDescription.swift in Sources */,
+				BC17BF96A0CE8AEC3CA7D1EE40FFA107 /* ConstraintDSL.swift in Sources */,
+				7F248C7DF2913D79F471EF92B46EFF4D /* ConstraintInsets.swift in Sources */,
+				85924109F2D41AEB857C9B44809B6D5F /* ConstraintInsetTarget.swift in Sources */,
+				BE5118B13717CFBCC491507F18D370BC /* ConstraintItem.swift in Sources */,
+				32745459E85E103F0E3CF7AAAA59486E /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				F0BBBCB5033385B4C154CC954F7269A5 /* ConstraintLayoutGuide.swift in Sources */,
+				93CC930ECF180EA12321E20970BD1D0D /* ConstraintLayoutGuideDSL.swift in Sources */,
+				DC3A99137B5CB65C1E2E153FDED107D3 /* ConstraintLayoutSupport.swift in Sources */,
+				41CC254E52BA87FC1C65F254BE1A2F5A /* ConstraintLayoutSupportDSL.swift in Sources */,
+				38580E829BF6F94B8FB40D75F2681B9E /* ConstraintMaker.swift in Sources */,
+				AA19A71696A959666641BBC340EC9106 /* ConstraintMakerEditable.swift in Sources */,
+				FD1A75AD1A05D1500BDB18E92A7EC197 /* ConstraintMakerExtendable.swift in Sources */,
+				7CB551B3535DDA97F9240274BCC07F26 /* ConstraintMakerFinalizable.swift in Sources */,
+				DE20E6E0FFDE435E64379324CE49B6CB /* ConstraintMakerPriortizable.swift in Sources */,
+				5025A0302B27F1DBE19754B1904FCF04 /* ConstraintMakerRelatable.swift in Sources */,
+				AD00EAE06064CA1ADD74D34AEBC2DBA3 /* ConstraintMultiplierTarget.swift in Sources */,
+				64C815B09D6E802F866D00ABE11697E5 /* ConstraintOffsetTarget.swift in Sources */,
+				55AB60123A6942825470E5C6B7B169BD /* ConstraintPriority.swift in Sources */,
+				69E02DC524A9A29E07A6E90A33096598 /* ConstraintPriorityTarget.swift in Sources */,
+				A87BA73A4E9597199BB63262910A7835 /* ConstraintRelatableTarget.swift in Sources */,
+				11D1553F0DD8B0978B90703FE68D7FFB /* ConstraintRelation.swift in Sources */,
+				D718961936C48180F8C46B16D9F914D8 /* ConstraintView+Extensions.swift in Sources */,
+				4432895EF0FAABF9850719CBA037F1EC /* ConstraintView.swift in Sources */,
+				2B14BBD5EE0A28643719F448E4295987 /* ConstraintViewDSL.swift in Sources */,
+				A7335E297B8E614E6F7CDE9A95F08E15 /* Debugging.swift in Sources */,
+				408797C540DD92FD556894C28E8CAA2E /* LayoutConstraint.swift in Sources */,
+				5E3C827A9D3DD7DA2B464E67EDCFC5DD /* LayoutConstraintItem.swift in Sources */,
+				6B1D15381A0DE399822637CE55963920 /* SnapKit-dummy.m in Sources */,
+				DF9B61787FFBBC1D17F9CA0960B96709 /* Typealiases.swift in Sources */,
+				E9399695FAC4A78B1A13898B872327CC /* UILayoutSupport+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10B585C7597920C0FC0172B70E51CC36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B3A5C653383C3D184444CA1894E0291 /* NicooSwiftRouter-dummy.m in Sources */,
+				DAFF341599352F5C5F07DEA6D35DF852 /* NicooSwiftRouter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B7EC6FBAC71E9B6C8031282A9428517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6775BB2B8F1F6E0222D390D9EE3511F /* Pods-NicooRouterTestProject-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB532F743F610FBA079E8C8D8D36C746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5EAC122D4A1554EB38978E084F65E19 /* RouterTestClass.swift in Sources */,
+				42DF130CA8661499BFA2CB4975786564 /* RouterTestModule-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0B76EC3771CCED44F6405B5CFE13C70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7CDB04C24A5EA75FF3735DFBF880D90 /* RightMuneTabel-dummy.m in Sources */,
+				959BF2F00AA89A2DF7440ED33E2437A2 /* RightMuneTable.swift in Sources */,
+				DA59F42C66D66AA6510233004E7A0980 /* RightMuneTableCell.swift in Sources */,
+				DC84234FC4FF943F6511C1D377ED4475 /* Service_RouterApi.swift in Sources */,
+				35E6828DD334E46344CA30805CC7C901 /* SourceBoudleManager.swift in Sources */,
+				1A0FB0E6B3E719608A7F39E99925B743 /* Target_RouterApi.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F401BD3E3DDABB66482CABEFC95B0D59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		094B21FCA8B9D2A6C4532A85477C65E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NicooSwiftRouter;
+			target = 51EE859E08FCAE3C74BF033F25304B9D /* NicooSwiftRouter */;
+			targetProxy = 5A3D2FD0B8D464E90C846FE58EDD6115 /* PBXContainerItemProxy */;
+		};
+		1074CA40A81A950031031FC19BCEC1D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "RightMuneTabel-RightMuneTabel";
+			target = 826782E9B8F735C6B8E0DD662DE7B82E /* RightMuneTabel-RightMuneTabel */;
+			targetProxy = 86BE3674D2AA977FF48625E1DE27DB66 /* PBXContainerItemProxy */;
+		};
+		3C32D7E77923D2889F54F5554D152E1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 73682EAD635E600E25A0EF7FAFBE5933 /* SnapKit */;
+			targetProxy = 08A0EDEEFD731C6B10BAC165B43005A5 /* PBXContainerItemProxy */;
+		};
+		51CA34807376F0B92152C7197AD5499A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NicooSwiftRouter;
+			target = 51EE859E08FCAE3C74BF033F25304B9D /* NicooSwiftRouter */;
+			targetProxy = 9E61438BCC90A01DA6464C8B4CC5A203 /* PBXContainerItemProxy */;
+		};
+		6534F61F640774A6CEF62A2EC8308D38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RightMuneTabel;
+			target = 7AF1AB332423380F8FD64973F892E409 /* RightMuneTabel */;
+			targetProxy = 3549EB475E29BBE39CF51790F449067C /* PBXContainerItemProxy */;
+		};
+		D9C54CE716D76F9EB8E27CF4B4AB99CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NicooSwiftRouter;
+			target = 51EE859E08FCAE3C74BF033F25304B9D /* NicooSwiftRouter */;
+			targetProxy = AED5A3C0FC300D81D8A1C20BBE0629B6 /* PBXContainerItemProxy */;
+		};
+		FA57C4C6887D659515D43E017577C97F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RouterTestModule;
+			target = 1CA586CC56A2F2C304FCF920A2B5787E /* RouterTestModule */;
+			targetProxy = 11B32229638EC6685C7F338352E7DD93 /* PBXContainerItemProxy */;
+		};
+		FD9288AC9BDBFAE6B28AA6E90FEACD4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 73682EAD635E600E25A0EF7FAFBE5933 /* SnapKit */;
+			targetProxy = 6E2BEC8980B4A7F888EBE53FA8ACDE69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00FF6783F0D54329D9D21B01F98E421B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEC11A60B01DF8E7FE3AFAAD31953915 /* RightMuneTabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RightMuneTabel";
+				INFOPLIST_FILE = "Target Support Files/RightMuneTabel/ResourceBundle-RightMuneTabel-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = RightMuneTabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		036938E37B13F9AA45A5F5C4870028D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF0EB0617FFFEF3FF7928675FAD46475 /* NicooSwiftRouter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NicooSwiftRouter/NicooSwiftRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NicooSwiftRouter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NicooSwiftRouter/NicooSwiftRouter.modulemap";
+				PRODUCT_MODULE_NAME = NicooSwiftRouter;
+				PRODUCT_NAME = NicooSwiftRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2755257FACF1FE2490F886DD503493F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 920478B73EEAC3CE08F9DCEC0A508FDE /* RouterTestModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RouterTestModule/RouterTestModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RouterTestModule/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RouterTestModule/RouterTestModule.modulemap";
+				PRODUCT_MODULE_NAME = RouterTestModule;
+				PRODUCT_NAME = RouterTestModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7884ABA1F6773D7005F4BEE8966EAB1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEC11A60B01DF8E7FE3AFAAD31953915 /* RightMuneTabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RightMuneTabel";
+				INFOPLIST_FILE = "Target Support Files/RightMuneTabel/ResourceBundle-RightMuneTabel-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = RightMuneTabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		7BF4763C8741AC63CD69FD1C56439D87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8A1CDF9BD7F28E9CCBCB59FE5CCBAEE /* Pods-NicooRouterTestProject.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NicooRouterTestProject/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NicooRouterTestProject/Pods-NicooRouterTestProject.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8204E22E6E6BFF8F48D0BC5ADD887C17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 920478B73EEAC3CE08F9DCEC0A508FDE /* RouterTestModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RouterTestModule/RouterTestModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RouterTestModule/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RouterTestModule/RouterTestModule.modulemap";
+				PRODUCT_MODULE_NAME = RouterTestModule;
+				PRODUCT_NAME = RouterTestModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8BDC2809243ACA30E56F1F9E5FF2C18E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEC11A60B01DF8E7FE3AFAAD31953915 /* RightMuneTabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RightMuneTabel/RightMuneTabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RightMuneTabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RightMuneTabel/RightMuneTabel.modulemap";
+				PRODUCT_MODULE_NAME = RightMuneTabel;
+				PRODUCT_NAME = RightMuneTabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B049D64C82D73063B55889E75EEF407A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E278BD65106F0156928E617E9810185F /* SnapKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C9CCA4C6E2046E3D968855E048C446DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E278BD65106F0156928E617E9810185F /* SnapKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD8D76008EB71931355D180246AF2810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEC11A60B01DF8E7FE3AFAAD31953915 /* RightMuneTabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RightMuneTabel/RightMuneTabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RightMuneTabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RightMuneTabel/RightMuneTabel.modulemap";
+				PRODUCT_MODULE_NAME = RightMuneTabel;
+				PRODUCT_NAME = RightMuneTabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ECEF9AEA332117C83B387931EB61BF1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF0EB0617FFFEF3FF7928675FAD46475 /* NicooSwiftRouter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NicooSwiftRouter/NicooSwiftRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NicooSwiftRouter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NicooSwiftRouter/NicooSwiftRouter.modulemap";
+				PRODUCT_MODULE_NAME = NicooSwiftRouter;
+				PRODUCT_NAME = NicooSwiftRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F214CFF8A8841EDD13F481FF5942A3F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42F14CBEB7578515B6A792665DD2091C /* Pods-NicooRouterTestProject.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NicooRouterTestProject/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NicooRouterTestProject/Pods-NicooRouterTestProject.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40EB50203E82F6898FB8A0EF944C3902 /* Build configuration list for PBXNativeTarget "RouterTestModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2755257FACF1FE2490F886DD503493F6 /* Debug */,
+				8204E22E6E6BFF8F48D0BC5ADD887C17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F52E1ADFB9F5616C90A7622DEE79269 /* Build configuration list for PBXNativeTarget "Pods-NicooRouterTestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F214CFF8A8841EDD13F481FF5942A3F1 /* Debug */,
+				7BF4763C8741AC63CD69FD1C56439D87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92A98841CAA17109697BA7F60C19B430 /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B049D64C82D73063B55889E75EEF407A /* Debug */,
+				C9CCA4C6E2046E3D968855E048C446DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94F0CD09EE5E52C3A7FCB06B0E7BD8D8 /* Build configuration list for PBXNativeTarget "RightMuneTabel-RightMuneTabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00FF6783F0D54329D9D21B01F98E421B /* Debug */,
+				7884ABA1F6773D7005F4BEE8966EAB1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7862FCD6678F308E75478BB8F249F1D /* Build configuration list for PBXNativeTarget "NicooSwiftRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036938E37B13F9AA45A5F5C4870028D2 /* Debug */,
+				ECEF9AEA332117C83B387931EB61BF1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B88672E29615D003CC1DB2123E77F7BA /* Build configuration list for PBXNativeTarget "RightMuneTabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8D76008EB71931355D180246AF2810 /* Debug */,
+				8BDC2809243ACA30E56F1F9E5FF2C18E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

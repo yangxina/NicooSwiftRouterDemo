@@ -25,6 +25,8 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
+### 不解释，直接上DEMO 
+写这个Demo的时候，我承认我自己也被绕晕了。 还好我有龙夫山泉，Demo看起来是有点绕，但是懂了比直接在路由组件内些Demo更为直观。   NicooSwiftRouter 是基于Swift4.1写的组件通信的路由组件，参考了大神casa的OC版路由。 路由组件地址：https://github.com/yangxina/NicooSwiftRouter
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 

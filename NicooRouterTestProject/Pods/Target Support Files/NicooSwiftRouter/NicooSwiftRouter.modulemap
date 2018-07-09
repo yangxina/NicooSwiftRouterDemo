@@ -1,0 +1,6 @@
+framework module NicooSwiftRouter {
+  umbrella header "NicooSwiftRouter-umbrella.h"
+
+  export *
+  module * { export * }
+}

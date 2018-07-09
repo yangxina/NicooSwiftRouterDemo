@@ -1,0 +1,10 @@
+
+platform :ios, '8.0' #手机的系统
+use_frameworks!
+target 'NicooRouterTestProject' do
+ 
+
+pod 'RouterTestModule'
+pod 'RightMuneTabel'
+pod 'NicooSwiftRouter'
+end
