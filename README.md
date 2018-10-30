@@ -7,7 +7,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 ### 不解释，直接上DEMO 
 
 Demo看起来是有点绕，但是懂了比直接在路由组件内写  Demo更为直观。   NicooSwiftRouter 是基于Swift4.1写的组件通信的路由组件，参考了大神casa的OC版路由。 
-路由组件地址：（https://github.com/yangxina/NicooSwiftRouter）
+路由组件地址：https://github.com/yangxina/NicooSwiftRouter
   
 使用场景：
 
