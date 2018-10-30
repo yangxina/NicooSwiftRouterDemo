@@ -32,29 +32,36 @@ Demo看起来是有点绕，但是懂了比直接在路由组件内写  Demo更�
   
 使用场景：
 
-    当在 组件A 内需要登录时， 而 “登录” 整个模块也是一个 组件B ，这时候就需要 组件A 通过路由器  NicooSwiftRouter 去调用 组件B 内的登录功能， 获取是否已经登录，登录状态，或者用户信息等。
-    （有人说，可以直接A组件 依赖B组件， 但是这样整个项目中的组件的耦合性就太大，路由的作用就是实现组件间的通讯和解耦）
+当在 组件A 内需要登录时， 而 “登录” 整个模块也是一个 组件B ，这时候就需要 组件A 通过路由器 
+NicooSwiftRouter 去调用 组件B 内的登录功能， 获取是否已经登录，登录状态，或者用户信息等。
+
+（有人说，可以直接A组件 依赖B组件， 但是这样整个项目中的组件的耦合性就太大，路由的作用就是实现组件间的通讯和解耦）
     
 使用方法:
 
-    路由组件 “NicooSwiftRouter” 中，提供了两种组件通讯的方式。 
+路由组件 “NicooSwiftRouter” 中，提供了两种组件通讯的方式。 
     
-    1. 通过远程调用程序入口
+1. 通过远程调用程序入口
     通过 url: 调用链接, 链接模版：”[scheme:]//[target]/[action]?key1=value1,key2=value2“ 
     
-    scheme:  用于认证谁有权限打开这个app，并且将其作为target所在的namespace使用，可以设置白名单
+    scheme:  用于认证谁有权限打开这个app，并且将其作为target所在的namespace使用，
+    可以设置白名单
     
-    target:  组件内提供给外部调用的API所在的文件名：如：”Target_RouterLogin“， ”NicooSwiftRouter“ 中自动添加了前缀 ”Target_”，url中的 [target] 不需要前缀。
+    target:  组件内提供给外部调用的API所在的文件名：如：”Target_RouterLogin“，
+    ”NicooSwiftRouter“ 中自动添加了前缀 ”Target_”，url中的 [target] 不需要前缀。
     
     action:  "Target_XXX" 文件中的API方法名 如： Action_getRouterApiInt()  这里需要注意的是：
     （1）. url中 传递的 [action] 不需要加前缀 ”Action_“， 因为在路由器组件中会自动添加前缀。 
-    （2）. "Target_XXX" 中的API 的方法必须使用 @objc 修饰， 并且带返回值的方法，返回值必须为对象类型。 基本数据类型 用 NSNumber 作为返回值， 在外部转换。
-
-    组件中做了头部的 ”Target_“ 处理， 为了区分组件内 功能文件 和 路由API文件，项目中一眼就能看到为路由提供API的 ”Target_XXX“ 文件，这样使得开发时更清晰。
+    （2）. "Target_XXX" 中的API 的方法必须使用 @objc 修饰， 并且带返回值的方法，
+      返回值必须为对象类型。 基本数据类型 用 NSNumber 作为返回值， 在外部转换。
+    组件中做了头部的 ”Target_“ 处理， 为了区分组件内 功能文件 和 路由API文件，
+    项目中一眼就能看到为路由提供API的 ”Target_XXX“ 文件，这样使得开发时更清晰。
     
 url 方式实例：（远程调用程序入口）
      
-一.  假设我们需要 在demo 中的 RouterTestModule 组件内通过路由调用 RightMuneTabel 组件内的APi （前提是，这个组件提供了给路由调用的API）
+一.  假设我们需要 在demo 中的 RouterTestModule 组件内通过路由调用 RightMuneTabel 组件内的APi 
+
+（前提是，这个组件提供了给路由调用的API）
     
     class Target_RouterApi 就是 RightMuneTabel 提供给路由调用的API的容器：
      比如这个API ： 这个方法是对外返回一个字符串。 
