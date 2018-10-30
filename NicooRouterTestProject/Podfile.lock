@@ -1,11 +1,14 @@
 PODS:
   - NicooSwiftRouter (0.1.2)
-  - RightMuneTabel (0.1.3):
+  - RightMuneTabel (0.1.5):
     - NicooSwiftRouter
+    - RouterTestModulServer
     - SnapKit (~> 4.0)
-  - RouterTestModule (0.1.1):
+  - RouterTestModule (0.1.2):
     - NicooSwiftRouter
-  - SnapKit (4.0.0)
+  - RouterTestModulServer (0.1.3):
+    - NicooSwiftRouter
+  - SnapKit (4.2.0)
 
 DEPENDENCIES:
   - NicooSwiftRouter
@@ -17,14 +20,16 @@ SPEC REPOS:
     - NicooSwiftRouter
     - RightMuneTabel
     - RouterTestModule
+    - RouterTestModulServer
     - SnapKit
 
 SPEC CHECKSUMS:
   NicooSwiftRouter: 1d33f1e81760f82ca1b2bf9e455b951a02b1ca5b
-  RightMuneTabel: a31c09c86a2650e7d72e1d933766f7aef91d7118
-  RouterTestModule: 73521744aa670bdad49206243d7c25dd1efc5bfe
-  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  RightMuneTabel: 6f2806fcb68384f4e6aa7ca9e5b301611c1dfa8d
+  RouterTestModule: d01723b730cbc68abe45b0b34d243f7bea1109e8
+  RouterTestModulServer: 2e630d158dfc889e31e9a5c1520e54777491d19e
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
 
-PODFILE CHECKSUM: 90354dce9cb73802e1a99c0eb3b5b11a4c2f2ede
+PODFILE CHECKSUM: 50eeab4073188597136901e88fe95816b0d2b988
 
 COCOAPODS: 1.5.0

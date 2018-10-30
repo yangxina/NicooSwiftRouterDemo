@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7AF1AB332423380F8FD64973F892E409"
+               BlueprintIdentifier = "8F06D0EF942D4B6AAE82F1D41986E055"
                BlueprintName = "RightMuneTabel"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "RightMuneTabel.framework">

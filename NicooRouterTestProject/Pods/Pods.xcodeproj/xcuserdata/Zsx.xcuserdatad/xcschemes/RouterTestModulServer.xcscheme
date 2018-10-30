@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8FD2C300892D7AD1ED1F723B261FA783"
-               BlueprintName = "RouterTestModule"
+               BlueprintIdentifier = "F9E3D821565BCA9E67F216050F5CF110"
+               BlueprintName = "RouterTestModulServer"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "RouterTestModule.framework">
+               BuildableName = "RouterTestModulServer.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

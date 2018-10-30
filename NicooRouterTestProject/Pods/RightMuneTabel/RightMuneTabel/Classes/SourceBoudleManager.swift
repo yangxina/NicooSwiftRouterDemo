@@ -17,7 +17,7 @@ class SourceBoudleManager: NSObject {
     }
     
     class func retureNumber(_ params: [String: Any]) -> Int{
-        print("这娃只要\(998)，就可以让你爽到无法呼吸")
+        print("只要\(998)")
         return 998
     }
     class func retureString() -> String{

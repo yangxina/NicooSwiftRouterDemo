@@ -31,7 +31,6 @@ open class NicooRouter {
                 params![array[0]] = array[1]
             }
         }
-        
         // 防止攻击
         guard let scheme = url.scheme else {
             return false

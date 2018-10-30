@@ -12,7 +12,6 @@
 		071D590120F30BB000BD7E5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 071D58FF20F30BB000BD7E5E /* Main.storyboard */; };
 		071D590320F30BB100BD7E5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 071D590220F30BB100BD7E5E /* Assets.xcassets */; };
 		071D590620F30BB100BD7E5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 071D590420F30BB100BD7E5E /* LaunchScreen.storyboard */; };
-		071D591020F3231A00BD7E5E /* Target_RouterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071D590F20F3231A00BD7E5E /* Target_RouterManager.swift */; };
 		40236E575086E49450BC11A6 /* Pods_NicooRouterTestProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79150075E40A66AE5809E62A /* Pods_NicooRouterTestProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,7 +24,6 @@
 		071D590220F30BB100BD7E5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		071D590520F30BB100BD7E5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		071D590720F30BB100BD7E5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		071D590F20F3231A00BD7E5E /* Target_RouterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target_RouterManager.swift; sourceTree = "<group>"; };
 		79150075E40A66AE5809E62A /* Pods_NicooRouterTestProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NicooRouterTestProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E06E6FE6877D768C48678AAE /* Pods-NicooRouterTestProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NicooRouterTestProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-NicooRouterTestProject/Pods-NicooRouterTestProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,7 +63,6 @@
 			children = (
 				071D58FB20F30BB000BD7E5E /* AppDelegate.swift */,
 				071D58FD20F30BB000BD7E5E /* ViewController.swift */,
-				071D590F20F3231A00BD7E5E /* Target_RouterManager.swift */,
 				071D58FF20F30BB000BD7E5E /* Main.storyboard */,
 				071D590220F30BB100BD7E5E /* Assets.xcassets */,
 				071D590420F30BB100BD7E5E /* LaunchScreen.storyboard */,
@@ -169,6 +166,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-NicooRouterTestProject/Pods-NicooRouterTestProject-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/NicooSwiftRouter/NicooSwiftRouter.framework",
 				"${BUILT_PRODUCTS_DIR}/RightMuneTabel/RightMuneTabel.framework",
+				"${BUILT_PRODUCTS_DIR}/RouterTestModulServer/RouterTestModulServer.framework",
 				"${BUILT_PRODUCTS_DIR}/RouterTestModule/RouterTestModule.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
@@ -176,6 +174,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NicooSwiftRouter.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RightMuneTabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RouterTestModulServer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RouterTestModule.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
@@ -211,7 +210,6 @@
 			files = (
 				071D58FE20F30BB000BD7E5E /* ViewController.swift in Sources */,
 				071D58FC20F30BB000BD7E5E /* AppDelegate.swift in Sources */,
-				071D591020F3231A00BD7E5E /* Target_RouterManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "826782E9B8F735C6B8E0DD662DE7B82E"
+               BlueprintIdentifier = "1AFBA4CED38A1EA8B9E823986BF89266"
                BuildableName = "RightMuneTabel.bundle"
                BlueprintName = "RightMuneTabel-RightMuneTabel"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "826782E9B8F735C6B8E0DD662DE7B82E"
+            BlueprintIdentifier = "1AFBA4CED38A1EA8B9E823986BF89266"
             BuildableName = "RightMuneTabel.bundle"
             BlueprintName = "RightMuneTabel-RightMuneTabel"
             ReferencedContainer = "container:Pods.xcodeproj">

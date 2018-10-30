@@ -1,15 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tG7-RJ-dNm">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="GmV-ZB-6VE">
+            <objects>
+                <navigationController id="tG7-RJ-dNm" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="lxP-vE-lq4">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Jtv-sW-Ol8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oaA-OT-yKt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1210" y="67"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -17,104 +33,10 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swift路由Demo （组件间通讯）" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hdq-eU-t5C">
-                                <rect key="frame" x="65.5" y="150" width="244.5" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="87X-R8-rPz">
-                                <rect key="frame" x="10" y="180.5" width="355" height="84"/>
-                                <string key="text">Demo使用路由组件： NicooSwiftRouter 让RightMuneTabel组件和RouterTestModule 组件通讯。Demo中只举了单边例子，就是在RouterTestModule中想要获取到RightMuneTabel中的SourceBoudleMnager方法返回值</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tXW-6q-HIv">
-                                <rect key="frame" x="95.5" y="349.5" width="184" height="40"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="wD0-lm-XVc"/>
-                                </constraints>
-                                <state key="normal" title="不带参数，获取字符串数组"/>
-                                <connections>
-                                    <action selector="gan:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5GI-iX-Vnc"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cCv-08-WsC">
-                                <rect key="frame" x="95.5" y="409.5" width="184" height="40"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="dKT-zI-Kr4"/>
-                                </constraints>
-                                <state key="normal" title="带参数，获取基本数据类型"/>
-                                <connections>
-                                    <action selector="gan:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mx4-aO-p2Z"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gN0-5N-C7L">
-                                <rect key="frame" x="80" y="469.5" width="215" height="40"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="469-5W-dhv"/>
-                                </constraints>
-                                <state key="normal" title="带参数，获取基本数据类型数组"/>
-                                <connections>
-                                    <action selector="gan:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X9p-nu-Zh1"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kSn-En-s6I">
-                                <rect key="frame" x="105.5" y="529.5" width="164" height="40"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="OD9-Ud-x21"/>
-                                </constraints>
-                                <state key="normal" title="不带参数，获取UIimage"/>
-                                <connections>
-                                    <action selector="gan:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oAT-pR-AUu"/>
-                                </connections>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5Su-WC-AW3">
-                                <rect key="frame" x="152.5" y="70" width="70" height="70"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="70" id="bo4-Cq-UV6"/>
-                                    <constraint firstAttribute="width" constant="70" id="qlQ-fs-1pN"/>
-                                </constraints>
-                            </imageView>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QIU-V5-QsH">
-                                <rect key="frame" x="111" y="289.5" width="153" height="40"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="DKj-wk-Sa9"/>
-                                </constraints>
-                                <state key="normal" title="不带参数，获取字符串"/>
-                                <connections>
-                                    <action selector="gan:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NCR-FS-eYz"/>
-                                </connections>
-                            </button>
-                        </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="gN0-5N-C7L" firstAttribute="centerX" secondItem="87X-R8-rPz" secondAttribute="centerX" id="1lj-HB-bIp"/>
-                            <constraint firstItem="QIU-V5-QsH" firstAttribute="top" secondItem="87X-R8-rPz" secondAttribute="bottom" constant="25" id="6w9-G1-kcS"/>
-                            <constraint firstItem="cCv-08-WsC" firstAttribute="top" secondItem="tXW-6q-HIv" secondAttribute="bottom" constant="20" id="8NM-Ca-AJO"/>
-                            <constraint firstItem="87X-R8-rPz" firstAttribute="top" secondItem="hdq-eU-t5C" secondAttribute="bottom" constant="10" id="BLV-Vo-gPF"/>
-                            <constraint firstItem="kSn-En-s6I" firstAttribute="top" secondItem="gN0-5N-C7L" secondAttribute="bottom" constant="20" id="Cf6-SC-w8R"/>
-                            <constraint firstItem="tXW-6q-HIv" firstAttribute="top" secondItem="QIU-V5-QsH" secondAttribute="bottom" constant="20" id="EEM-Ef-QxU"/>
-                            <constraint firstItem="hdq-eU-t5C" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="H4h-c8-Lme"/>
-                            <constraint firstItem="hdq-eU-t5C" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="150" id="J9q-rf-w4h"/>
-                            <constraint firstItem="87X-R8-rPz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="N0m-49-f2p"/>
-                            <constraint firstItem="cCv-08-WsC" firstAttribute="centerX" secondItem="87X-R8-rPz" secondAttribute="centerX" id="PM8-di-rdu"/>
-                            <constraint firstItem="5Su-WC-AW3" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="70" id="WN4-aq-88J"/>
-                            <constraint firstItem="5Su-WC-AW3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="h6d-s1-2cb"/>
-                            <constraint firstAttribute="trailing" secondItem="87X-R8-rPz" secondAttribute="trailing" constant="10" id="iYr-Ks-scX"/>
-                            <constraint firstItem="gN0-5N-C7L" firstAttribute="top" secondItem="cCv-08-WsC" secondAttribute="bottom" constant="20" id="ijY-xz-Hnl"/>
-                            <constraint firstItem="QIU-V5-QsH" firstAttribute="centerX" secondItem="87X-R8-rPz" secondAttribute="centerX" id="n4I-PB-b7x"/>
-                            <constraint firstItem="kSn-En-s6I" firstAttribute="centerX" secondItem="87X-R8-rPz" secondAttribute="centerX" id="vpi-Hj-NJC"/>
-                            <constraint firstItem="tXW-6q-HIv" firstAttribute="centerX" secondItem="87X-R8-rPz" secondAttribute="centerX" id="zzg-7x-ip5"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <connections>
-                        <outlet property="imageViewss" destination="5Su-WC-AW3" id="izn-8g-RCo"/>
-                    </connections>
+                    <navigationItem key="navigationItem" id="WBs-ey-caQ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

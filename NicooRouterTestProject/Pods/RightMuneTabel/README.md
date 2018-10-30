@@ -12,16 +12,22 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ## Requirements
 ## How to Use
 
-1. //右上角菜单按钮
-//**************************************************************************************************************/
-let mune = RightMuneTable(frame: self.view.bounds)
-mune.imageSource = [UIImage(named: "collection"), UIImage(named: "downLoad"), UIImage(named: "shareAction")] as? [UIImage]
-mune.titleSource = ["收藏","下载","分享"] //,"分享","分享"
-mune.selectedIndex = { [weak self] (index) in
-print("index = \(index)")
-if index == 1 {}}
-mune.showInView(self.view)
-/**************************************************************************************************************/
+    1. //右上角菜单按钮
+
+     let mune = RightMuneTable(frame: self.view.bounds)
+     mune.imageSource = [UIImage(named: "collection"), UIImage(named: "downLoad"), UIImage(named: "shareAction")] as? [UIImage]
+     mune.titleSource = ["收藏","下载","分享"] //,"分享","分享"
+     mune.selectedIndex = { [weak self] (index) in
+        if index == 1 { 
+        
+        }  
+     } 
+     mune.showInView(self.view)
+     
+     2. 这个组件的意义所在： 
+     RightMuneTabel 组件 作为 路由组件 “NicooSwiftRouter” 的测试组件而存在。 当点击 RightMuneTable的 item 时，与组件 “RouterTestModule” 通讯，模拟在组件中点击 ”收藏“ ，”vip下载“ 之类的需要用户登录后才能执行的操作。
+    
+
 
 ## Installation
 

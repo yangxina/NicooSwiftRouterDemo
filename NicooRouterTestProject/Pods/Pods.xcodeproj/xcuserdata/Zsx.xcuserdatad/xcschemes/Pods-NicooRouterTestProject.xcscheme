@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7437ED4CB2D5502B54491A468A3458E7"
+               BlueprintIdentifier = "8F72D130E7582D565E323C676F5D3169"
                BuildableName = "Pods_NicooRouterTestProject.framework"
                BlueprintName = "Pods-NicooRouterTestProject"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7437ED4CB2D5502B54491A468A3458E7"
+            BlueprintIdentifier = "8F72D130E7582D565E323C676F5D3169"
             BuildableName = "Pods_NicooRouterTestProject.framework"
             BlueprintName = "Pods-NicooRouterTestProject"
             ReferencedContainer = "container:Pods.xcodeproj">
