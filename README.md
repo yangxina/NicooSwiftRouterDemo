@@ -171,6 +171,26 @@ server组件是什么？ server组件 就是 一个组件 和 路由器 的中�
     }
     
 具体的代码，请看Demo。  
+
+## Installation
+
+NicooSwiftRouter is available through[CocoaPods](https://cocoapods.org). To install
+
+it, simply add the following line to your Podfile:
+
+```ruby
+
+pod 'NicooSwiftRouter'
+
+```
+
+## Author
+
+504672006@qq.com, yangxin@tzpt.com
+
+## License
+
+NicooSwiftRouter is available under the MIT license. See the LICENSE file for more info.
    
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
