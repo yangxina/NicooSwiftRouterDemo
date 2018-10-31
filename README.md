@@ -99,8 +99,8 @@ server组件是什么？ server组件 就是 一个组件 和 路由器 的中�
       1. 当项目到后期，很多组件间都存在通讯， 互相调用的时候，url满天飞，非常不好管理。
       2. 假如我的组件A 调用组件B中的 api时需要一个block回调，此时url这种方式就明显的显得极为尴尬。
       （别的缺点因本人技术有限暂时还没发现）
-      举个例子：  
       
+举个例子：     
 当在 组件A 内需要登录时， 而 “登录” 整个模块也是一个 组件B ，这时候就需要 组件A 通过路由器
 调用 组件B 内的登录功能， 获取是否已经登录，登录状态，或者用户信息等 ，然后需要通过一个block回调给 组件A。   
 这时候， server组件就派上用场了： 这也正是我们Demo中的例子: 
@@ -113,7 +113,7 @@ server组件是什么？ server组件 就是 一个组件 和 路由器 的中�
          /// Target文件
          fileprivate static let kTarget = "RouterLogin"
          
-         /// API name (不需要前缀， 因为在 NicooSwiftRouter 组件中，会自动去掉 “Target_” 、 “Action_” 前缀)
+         /// API name (不需要前缀， 因为在 NicooSwiftRouter 组件中，会自动添加 “Target_” 、 “Action_” 前缀)
          fileprivate static let kPresentLoginVCAction = "persentLoginVC"
          fileprivate static let kGetUserInformation = "getUserInfoMsg"
       }
@@ -146,7 +146,7 @@ server组件是什么？ server组件 就是 一个组件 和 路由器 的中�
       ///
       /// - Returns: 用户信息json
       public func Router_getUserInformation() -> [String: Any]? {
-         let value = perform(action: NicooRouterManager.kGetUserInformation, onTarget: NicooRouterManager.kTarget, inNamespace: NicooRouterManager.kNamespace, withParams: nil)
+         let value = perform(action: NicooRouterManager.kGetUserInformation, onTarget: NicooRouterManager.kTarget,         inNamespace: NicooRouterManager.kNamespace, withParams: nil)
           guard let userInfo = value as? [String: Any] else { return nil }
           return userInfo
       }
