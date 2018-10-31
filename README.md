@@ -26,11 +26,11 @@ NicooSwiftRouter 去调用 组件B 内的登录功能， 获取是否已经登�
     scheme:  用于认证谁有权限打开这个app，并且将其作为target所在的namespace使用，
     可以设置白名单 (在AppDelegate中添加需要用到路由通讯的组件 白名单) 
     
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions:      
-    [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-      NicooRouterManager.schemes = ["NicooRouterTestProject", "RightMuneTabel", "RouterTestModule"]
-        return true
-    }
+       func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions:      
+       [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+          NicooRouterManager.schemes = ["NicooRouterTestProject", "RightMuneTabel", "RouterTestModule"]
+          return true
+       }
     
     target:  组件内提供给外部调用的API所在的文件名：如：”Target_RouterLogin“，
     ”NicooSwiftRouter“ 中自动添加了前缀 ”Target_”，url中的 [target] 不需要前缀。
